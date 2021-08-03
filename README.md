@@ -13,7 +13,7 @@ After creating a new project and enabling billing for it, open Cloud Shell and e
 ### GCP account with project.
  - **Create a GCP account with project enabled**
    - Install [gsutil tool](https://cloud.google.com/storage/docs/gsutil) from the documentation.
-   - Run "gsutil config" to configure shell.
+   - Run "gsutil config" to configure shell or run “gcloud config set project [PROJECT_ID] (This project id should be of different account which represents external account for testing publicly accessible bucket.)” 
    - Run "gsutil ls" to check the command is successful. This will list all the google buckets for project.
    - Install python3 and pip for installting dependencies.
    - GCP Bucket listing with or without gs:// from the file via path as an argument.
