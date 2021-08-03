@@ -24,8 +24,8 @@ After creating a new project and enabling billing for it, open Cloud Shell and e
 git clone https://github.com/justmorpheus/GCP-Inspector
 cd GCP-Inspector
 mkdir gcp_inspect
-virtualenv -v env-tctf
-source env-tctf/bin/activate
+virtualenv -v gcp_inspect
+source gcp_inspect/bin/activate
 python3 -m pip install -r requirements.txt
 python3 gcp_inspector.py -r sample_file.txt
 ```
